@@ -1,0 +1,119 @@
+/*------------------------body------------------------*/
+body {
+    background-color: #EBEBEB;
+}
+/*-----------------------header-----------------------*/
+header {
+    background-color: white;
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    padding: 15px;
+    border: 1px solid rgb(224, 224, 224);
+    margin: 10px auto;
+    border-radius: 2%;
+}
+.photo {
+    border: 2px solid #CDCDCD;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.nom {
+    color: #DD5555;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: -1px;
+}
+.fonction {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #7D8186;
+    font-weight: normal;
+}
+.presentation {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #7D8186;
+    font-weight: lighter;
+    font-size: 19px;
+    text-align: justify;
+}
+.button {
+    font-size: 16px;
+    width: 150px;
+    height: 45px;
+    color: white;
+    background-color: #DD5555;
+    border: none;
+    padding: 2px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+/*------------------------------------Nav-------------------------*/
+nav {
+    background-color: white;
+    width: 500px;
+    height: 150px;
+    padding: 15px;
+    border: 1px solid rgb(224, 224, 224);
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 2%;
+}
+/*------------------------------------UL--------------------------*/
+ul {
+    width: 400px;
+    height: 115px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 0 auto;
+    padding-left: 0;
+}
+/*-------------------------------Facebook-------------------------*/
+.facebook {
+    width: 100px;
+    height: 100px;
+    color: #cccccc;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+/*-------------------------------Linkedin-------------------------*/
+.linkedin {
+    width: 100px;
+    height: 100px;
+    color: #cccccc;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+/*--------------------------------Twitter-------------------------*/
+.twitter {
+    width: 100px;
+    height: 100px;
+    color: #cccccc;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+/*--------------------------------fa-brands-------------------------*/
+.fa-brands {
+    width: 84px;
+    height: 73px;
+    display: flex;
+    float: left;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #cccccc;
+}
