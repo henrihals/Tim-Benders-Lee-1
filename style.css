@@ -110,8 +110,7 @@ ul {
 .fa-brands {
     width: 84px;
     height: 73px;
-    display: flex;
-    float: left;
+    display: inline-flex;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
